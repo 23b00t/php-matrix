@@ -5,7 +5,7 @@ session_start();
 // Rücksetzfunkionalität  
 if (isset($_POST['unset'])) {
     session_unset();
-    return header("Location: index.php");
+    return header("Location: index.html");
 }
 
 // Redirect von Startseite an Auswertungsseite mit übergabe von Auswahl über Seesion
